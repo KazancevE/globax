@@ -1,0 +1,38 @@
+.finder {
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 48px;
+    align-items: center;
+    /* margin: auto; */
+    /* margin-top: 1%; */
+    margin: 24px;
+    justify-content: center
+}
+
+.finder > input{
+    width: 90%;
+    z-index: 900;
+    height: 100%;
+    border: 1px solid #D4DEFE;
+    border-radius: 24px;
+    padding-left: 3%;
+    font-size: 24px;
+}
+.finder::before{
+    z-index: 1000;
+    content: '';
+    position: absolute;
+    right: 6%;
+    width: 24px;
+    height: 24px;
+    background: url('../img/logo_find.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finder > img{
+    position: relative;
+    z-index: 1000;
+    margin-right: -30px;
+}

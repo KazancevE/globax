@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Proxima Nova bold";
+    src: url('../fonts/proximanova_bold.otf');
+}
+@font-face {
+    font-family: "Proxima Nova regular";
+    src: url('../fonts/proximanova_regular.ttf');
+}
+
+.list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 20vw;
+    margin: 12px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+
+.list_item > div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.list_item > * {
+    margin: 6px;
+}
+
+.list_item h2 {
+    font-family: "Proxima Nova bold";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    color: #262C40;
+}
+
+.list_item p {
+    font-family: "Proxima Nova regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8189A3;
+}
+
+.list_item img {
+    width: 24px;
+    height: 24px;
+}
